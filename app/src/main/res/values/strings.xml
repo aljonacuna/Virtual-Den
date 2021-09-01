@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CICT VIRTUAL DEN</string>
+    <string name="title_activity_newsfeed">newsfeed</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="nav_drawerOpen">Open navigation drawer</string>
+    <string name="nav_draweClose">Close navigation drawer</string>
+    <string name="title_activity_showlang">showlang</string>
+    <string name="title_activity_message">message</string>
+    <string name="title_activity_contact_list">contactList</string>
+    <string name="title_activity_lostandfound">lostandfound</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

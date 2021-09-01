@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/close_btndialog"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/close_black" />
+       <TextView
+           android:id="@+id/titleDialog"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="24sp"
+           android:layout_margin="15dp"
+           android:layout_centerHorizontal="true"
+           android:text="Title"
+           android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/messageDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Message"
+            android:layout_below="@id/titleDialog"/>
+        <TextView
+            android:id="@+id/itemlbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item:"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/messageDialog"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/item_namedialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/messageDialog"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/itemlbl"
+            android:text="itemname"
+            android:textColor="@color/pythonblue"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/msg_textbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_button_rounder"
+            android:layout_marginTop="10dp"
+            android:hint="Write message here"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_below="@id/itemlbl"/>
+        <Button
+            android:id="@+id/sendmsg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/msg_textbox"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/butttonradiusstaff"
+            android:layout_marginBottom="10dp"
+            android:text="Send"
+            android:textColor="@color/pythonyellow"
+            style="?android:attr/borderlessButtonStyle"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.loadingscreen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logowhite"
+        android:label="CICT VD"
+        android:roundIcon="@mipmap/logowhite"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label"
+        android:requestLegacyExternalStorage="true">
+        <activity android:name=".activity_gui.ResendVerification"></activity>
+        <activity android:name=".activity_gui.EditProfile" />
+        <activity android:name=".win.activity.AddLetter" />
+        <activity android:name=".win.activity.ForgotPassword" />
+        <activity android:name=".win.activity.StudentViewOfficers" />
+        <activity android:name=".Revise.UpdateClassSchedSecond" />
+        <activity android:name=".Revise.UpdateClassSched" />
+        <activity android:name=".visitlogin.GuestLostAndFound" />
+        <activity android:name=".activity_gui.userSetting" />
+        <activity android:name=".win.activity.LetterforDean" />
+        <activity android:name=".win.activity.AddOfficer" />
+        <activity android:name=".win.activity.OrgAboutBtn" />
+        <activity android:name=".win.activity.StudentOrgView" />
+        <activity android:name=".win.activity.PendingStudents" />
+        <activity android:name=".win.activity.StudentListOrg" />
+        <activity android:name=".win.activity.ChangePassword" />
+        <activity android:name=".win.activity.UpdateEmail" />
+        <activity android:name=".win.activity.AnnouncementMenu" />
+        <activity android:name=".win.activity.SuccessSignup" />
+        <activity android:name=".win.activity.Mainmenu" />
+        <activity android:name=".win.activity.Registration" />
+        <activity android:name=".win.activity.AdminSettings" />
+        <activity android:name=".win.activity.RegisterOrg" />
+        <activity android:name=".win.activity.RegisterProf" />
+        <activity android:name=".win.activity.OrgList" />
+        <activity android:name=".win.activity.FacultyList" />
+        <activity android:name=".win.activity.AdminStudents" />
+        <activity android:name=".win.activity.AdminPanel" />
+        <activity android:name=".win.activity.RegisterFirstActivity" />
+        <activity android:name=".win.activity.FullVideoScreen" />
+        <activity android:name=".win.activity.FullScreenImage" />
+        <activity android:name=".win.activity.PostEdit" />
+        <activity android:name=".win.activity.OrgAbout" />
+        <activity android:name=".win.activity.UpdateOrg" />
+        <activity android:name=".win.activity.LoginActivity" />
+        <activity android:name=".win.activity.OrgUserMenu" />
+        <activity android:name=".win.activity.AddNewPost" />
+        <activity android:name=".activity_gui.newmessage" />
+        <activity android:name=".schedule.updateroomsched" />
+        <activity android:name=".schedule.facultypanel" />
+        <activity android:name=".schedule.toEditclass" />
+        <activity android:name=".schedule.dimuna_deleteeditclasssc" />
+        <activity
+            android:name=".activity_gui.userpostdetail"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+        <activity android:name=".fullscreen_img.chat_userimg_fullscreen" />
+        <activity android:name=".fullscreen_img.schedulefull_img" />
+        <activity android:name=".fullscreen_img.lostandfound_IMG" />
+        <activity android:name=".activity_gui.itemclaim_2" />
+        <activity android:name=".activity_gui.directtopost" />
+        <activity android:name=".schedule.adding_faculty_sched" />
+        <activity android:name=".schedule.faculty_schedule" />
+        <activity android:name=".schedule.class_schedule" />
+        <activity android:name=".schedule.adding_class_sched" />
+        <activity android:name=".schedule.add_front_sched" />
+        <activity android:name=".schedule.class_faculty_sched" />
+        <activity android:name=".schedule.add_room_sched" />
+        <activity android:name=".schedule.roomsched" />
+        <activity android:name=".schedule.addRoom" />
+        <activity android:name=".schedule.schedule_roomassign" />
+        <activity
+            android:name=".activity_gui.lostandfound"
+            android:label="@string/title_activity_lostandfound"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity_gui.signup2" />
+        <activity android:name=".activity_gui.dimunadelete" />
+        <activity android:name=".activity_gui.searchUser" />
+        <activity
+            android:name=".activity_gui.contactList"
+            android:label="@string/title_activity_contact_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity_gui.chat" />
+        <activity android:name=".activity_gui.edit_post" />
+        <activity android:name=".activity_gui.toUploadBgimg" />
+        <activity android:name=".activity_gui.toUploadprofileimg" />
+        <activity android:name=".row_comment" />
+        <activity android:name=".activity_gui.commentsection" />
+        <activity android:name=".activity_gui.userprofile" />
+        <activity android:name=".activity_gui.createcontent" />
+        <activity android:name=".post_row" />
+        <activity android:name=".activity_gui.signup" />
+        <activity android:name=".activity_gui.signin" />
+        <activity android:name=".activity_gui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider156579362556704"
+            android:exported="true" />
+    </application>
+
+</manifest>

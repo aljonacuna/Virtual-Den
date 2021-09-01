@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".win.activity.AdminSettings">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adminSettingsToolBar"
+        android:background="@color/pythonblue"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:title="Settings"
+        app:titleTextColor="@android:color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e8f4f8"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Account"
+            android:textSize="15sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="15dp"
+            android:background="#e8f4f8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:id="@+id/updateEmailAdmin"
+            android:paddingHorizontal="10dp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/pythonblue"
+            android:drawableEnd="@drawable/rightarrowblue"
+            android:drawableRight="@drawable/rightarrowblue" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Update Email Address"
+            android:fontFamily="@font/roboto"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textStyle="bold"
+            android:paddingHorizontal="10dp"
+            android:id="@+id/changePwAdmin"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto"
+            android:textColor="@color/pythonblue"
+            android:drawableRight="@drawable/rightarrowblue"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/roboto"
+            android:text="Change Password"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/logoutAdmin"
+            android:fontFamily="@font/roboto"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/pythonblue"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

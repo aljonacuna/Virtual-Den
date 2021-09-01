@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/list"/>
+    <item
+        android:id="@+id/messages"
+        android:enabled="true"
+        android:title="Messages"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/messages"/>
+    <item
+        android:id="@+id/officers"
+        android:enabled="true"
+        android:title="Officers"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/officers"/>
+
+</menu>

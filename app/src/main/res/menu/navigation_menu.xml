@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/newsfeed"
+            android:title="Newsfeed"
+            android:icon="@drawable/ic_baseline_announcement_24"/>
+        <item
+            android:id="@+id/room"
+            android:title="Room"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/facultypanel"
+            android:title="Faculty Panel"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_person_24"/>
+        <item
+            android:id="@+id/sched"
+            android:title="Schedules"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_calendar_today_24"/>
+        <item
+            android:id="@+id/lostandfound"
+            android:title="Lost and Found"
+            android:icon="@drawable/ic_baseline_forum_24"/>
+        <item
+            android:id="@+id/deansforum"
+            android:title="Deans Forum"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_forum_24"/>
+        <item
+            android:id="@+id/staffs"
+            android:title="Staff Panel"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_person_24"/>
+        <item
+            android:id="@+id/admin"
+            android:title="Admin Panel"
+            android:visible="false"
+            android:icon="@drawable/ic_baseline_person_24"/>
+    </group>
+
+    <item
+        android:id="@+id/pap"
+        android:visible="false"
+        android:title="Profile and Privacy">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_baseline_person_24"/>
+                <item
+                    android:id="@+id/edit_profile"
+                    android:title="Edit Profile"
+                    android:icon="@drawable/ic_baseline_edit_24"/>
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Others">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:visible="false"
+                        android:id="@+id/messages"
+                        android:title="Message"
+                        android:icon="@drawable/ic_baseline_message_24"/>
+                    <item
+                        android:id="@+id/logout"
+                        android:title="Logout"
+                        android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

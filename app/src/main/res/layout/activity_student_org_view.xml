@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F0F8FF"
+    android:orientation="vertical"
+    tools:context=".win.activity.StudentOrgView">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="10dp"
+        android:id="@+id/topOrgDetails"
+        android:background="@color/pythonblue">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/orgImage"
+                android:src="@drawable/cursor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/orgImage"
+                android:id="@+id/orgName"
+                android:text="Cursor publication"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/userType"
+                android:text="Organization"
+                android:layout_below="@+id/orgName"
+                android:layout_toEndOf="@+id/orgImage"
+                android:layout_marginStart="5dp"
+                android:textStyle="italic"
+                android:textSize="13sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_toRightOf="@+id/orgImage"
+                android:layout_marginLeft="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:maxLines="4"
+                android:text="M"
+                android:layout_toRightOf="@id/orgImage"
+                android:textSize="13sp"
+                android:fontFamily="@font/roboto"
+                android:textAllCaps="false"
+                android:layout_below="@id/userType"
+                android:id="@+id/orgDesc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/orgImage"
+                android:id="@+id/sendMSGORG"
+                android:textSize="13sp"
+                android:layout_marginVertical="10dp"
+                android:textColor="@android:color/white"
+                android:padding="7dp"
+                android:background="@drawable/buttonfound"
+                android:text="Send message"/>
+
+            <TextView
+                android:id="@+id/orgAboutBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/orgImage"
+                android:layout_alignParentRight="true"
+                android:layout_marginVertical="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/buttonfound"
+                android:padding="7dp"
+                android:text="About us"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/orgAboutBtn1"
+                android:layout_alignParentRight="true"
+                android:id="@+id/sendPm"
+                android:textSize="13sp"
+                android:textColor="@color/pythonblue"
+                android:padding="7dp"
+                android:background="@drawable/buttonshapeclear"
+                android:text="View officials"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:background="#F0F8FF"
+            android:textColor="@color/pythonblue"
+            android:id="@+id/postCount"
+            android:fontFamily="@font/roboto"
+            android:textSize="13sp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="This group has"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fullScreen"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/fullscreen"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fullScreenExit"
+            android:background="@drawable/fullscreenexit"
+            android:visibility="gone"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_studorgview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

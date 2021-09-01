@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="grey">#f4f4f4</color>
+    <color name="white">#ffffff</color>
+    <color name="online">#00ff00</color>
+    <color name="black">#000000</color>
+    <color name="light85percent">#d9d9d9</color>
+    <color name="lightdark">#808080</color>
+    <color name="maincolor">#5eed82</color>
+    <color name="commentbg">#e6e6e6</color>
+    <color name="yellow">#F4B400</color>
+    <color name="blue">#4285F4</color>
+    <color name="red">#DB4437</color>
+    <color name="pythonyellow">#FFE873</color>
+    <color name="pythonblue">#4B8BBE</color>
+    <color name="goldyellow">#FFDF00</color>
+    <color name="grey93">#939393</color>
+    <color name="botNav">#F0F8FF</color>
+    <color name="buttoncolor">#e8f4f8</color>
+    <color name="redLight">#cc3300</color>
+    <color name="lightblue">#b7e9f7</color>
+
+    <color name="successtext">#09A538</color>
+    <color name="successbg">#d4edda</color>
+    <color name="successborder">#c3e6cb</color>
+
+    <color name="warningtext">#856404</color>
+    <color name="warningbg">#fff3cd</color>
+    <color name="warningborder">#ffeeba</color>
+
+    <color name="infotext">#1279C8</color>
+    <color name="infobg">#B4D8F8</color>
+    <color name="infoborder">#bee5eb</color>
+
+    <color name="dangertext">#721c24</color>
+    <color name="dangerbg">#f8d7da</color>
+    <color name="dangerborder">#f5c6cb</color>
+</resources>

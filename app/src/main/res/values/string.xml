@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status">
+        <item>Found</item>
+        <item>Lost</item>
+    </string-array>
+    <string name="underline_tv"><u>Sign in as guest </u></string>
+    <string name="lostfoundtitle_dialog">Claiming or Helping?</string>
+    <string name="lostfoundmsg_dialog">You can add your personal message to the author of this post whether you are claiming the items or helping</string>
+    <string name="virtual_den">VIRTUAL DEN. . .</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="implement_rules">We are strictly implementing one account per one user.</string>
+    <string name="close_nav">Close Nav</string>
+    <string name="open_nav">Open nav</string>
+    <string name="missions_visions">MISSIONS/VISIONS</string>
+    <string name="nav_open">nav open</string>
+    <string name="nav_close">nav close</string>
+    <string name="posted">Posted successfully!</string>
+    <string name="facebook_app_id">156579362556704</string>
+    <string name="termsncondition">The terms and condition listed below set forth the terms between the application and the USERS for any service, and features provided by this application.\n
+
+ACCOUNTS:\n
+1. Use active email address so that you can activate and retrieve your account password.\n
+2. Use only your own student number to get verified.\n
+3. Use your real name so other users will know you.\n
+4. Hacking and/or manipulating accounts other than your own without permission is prohibited.\n
+\n
+MESSAGE:\n
+1. Flooding or intentionally messaging user repeatedly is not allowed.\n
+2. No phornographic conversation in the message will be tolerated.\n
+3. Please be polite on messaging other users of the application.\n
+\n
+LOST AND FOUND:\n
+1. Flooding lost and found in any way is prohibited.\n
+2. Make sure that your item is posted in the correct category.\n
+3. Dont claim item that wasnt yours. Lost and found has records of action done to items.\n
+\n
+LETTERS FOR DEAN:\n
+1. Do not post bad words , system can track and filter it.\n
+2.Do not flood the letters for dean area.\n
+3. Feel free to suggest and comment but in a good way.\n
+\n
+DESCIPLINE:\n
+1. Respect yourself and other users of this application. Arguing with other users with or without valid reason using insulting words will  never be tolerated.\n
+2. Pretension, disguise and or acting as other user and/or person is not allowed.\n
+3.Suggestions and complaints will be attended only when an acceptable point has been made. Professors  are not obliged to respond to all PMs unless important.\n
+5. Requests are subject to proper screening before vouchsafe.\n
+6. Observe good manners and right conduct at all times.\n
+\n
+VIOLATORS WILL RECEIVE WARNING AT FIRST OFFENSE UNLESS SPECIFIED NOT. WHEN NO ACTIONS WERE DONE TO DEFEND OR CORRECT SUCH ACTIVITY AND/OR CONTINUITION OF VIOLATION, PENALTIES WILL BE APPLIED. TRANSGRESSION PENALTIES MAY cause of disabling an account.
+If you have any concerns regarding to your account. Kindly look for the admin of the application ,Sir Jonathan Tomacruz for the assitant.
+
+    </string>
+</resources>

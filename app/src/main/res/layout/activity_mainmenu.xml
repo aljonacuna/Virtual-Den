@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".win.activity.Mainmenu">
+    <RelativeLayout
+        android:id="@+id/topRel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_marginLeft="20dp"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/container_user_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/menuBotNav"
+        android:layout_below="@id/topRel"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-1dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuBotNav"
+        app:backgroundTint="@color/botNav"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/bottom_nav"
+        app:menu="@menu/mainmenu"/>
+
+</RelativeLayout>

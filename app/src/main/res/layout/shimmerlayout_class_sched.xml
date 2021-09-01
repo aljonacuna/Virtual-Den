@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:strokeColor="@color/commentbg"
+    app:strokeWidth="0.7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/courseYSG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="200dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/commentbg"
+                android:transitionName="yeargs_trasition" />
+
+            <ImageView
+                android:id="@+id/class_schedImg"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_margin="10dp"
+                android:layout_below="@id/not_yetlbl"
+                android:background="@color/commentbg"
+                android:scaleType="centerCrop"
+                android:transitionName="classimg_transition" />
+
+            <TextView
+                android:id="@+id/not_yetlbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/postedby"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@id/label_date_class"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/label_date_class"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/label_postedby"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/commentbg"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/label_postedby"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/courseYSG"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/commentbg"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/postedby"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/courseYSG"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/label_postedby"
+                android:background="@color/commentbg"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/commentbg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/note_lblclass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/noteClassSched"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
